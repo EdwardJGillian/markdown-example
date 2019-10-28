@@ -33,7 +33,7 @@ p <- ggplot(data=ggdf, aes(x=weight, y=feed)) +
 p
 ```
 
-![Barplot-basic](ggplot%20images/barplot-basic.png)
+![Barplot-basic](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-basic.png)
 
 
 ### ggplot options explained
@@ -68,7 +68,7 @@ p + ggtitle(" Chicken Weights by feed types") +
 * color - changes the borders of the bars
 * fill - changes the fill-in color of the bars
 
-![Bar-plot-change-colors](ggplot%20images/barplot-white-fill.png)
+![Bar-plot-change-colors](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-white-fill.png)
 
 ### Set a minimal theme + blue fill color
 ```
@@ -78,7 +78,9 @@ p<-ggplot(data=ggdf, aes(x=weight, y=feed)) +
 p + ggtitle(" Chicken Weights by feed types") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
-![Bar-plot-minimal-theme](ggplot%20images/barplot-minimal-theme.png)
+
+![Bar-plot-minimal-theme](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-minimal-theme.png)
+
 * theme_minimal - A minimalistic theme with no background annotations.
 
 ### Set a classic theme + blue fill color
@@ -90,7 +92,7 @@ p + ggtitle(" Chicken Weights by feed types") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![Bar-plot-theme-classic](ggplot%20images/barplot-classic-theme.png)
+![Bar-plot-theme-classic](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-classic-theme.png)
 
 * theme_classic - a classic-looking theme, with x and y axis lines and no gridlines.
 
@@ -104,7 +106,7 @@ p <- ggplot(data=ggdf, aes(x=weight, y=feed, fill=feed)) +
 p + ggtitle(" Chicken Weights by feed types") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
-![Bar-plot-labels-outside](ggplot%20images/barplot-labels-outside.png)
+![Bar-plot-labels-outside](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-labels-outside.png)
 
 * geom_text - adds text directly to the plot
 * aes - describes how variables in the data are mapped to visual properties (aesthetics) of geoms
