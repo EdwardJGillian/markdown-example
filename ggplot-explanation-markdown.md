@@ -32,7 +32,7 @@ p <- ggplot(data=ggdf, aes(x=weight, y=feed)) +
 p
 ```
 
-![](ggplot%20images/barplot-basic.png)
+![Barplot-basic](ggplot%20images/barplot-basic.png)
 
 
 ### ggplot options explained
