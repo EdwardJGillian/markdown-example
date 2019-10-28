@@ -22,6 +22,7 @@ chicks with a weight > 100 and < 200
 ```
 * weight - Weight of the chicks
 * feed - type of feed the chicks received
+
 ### Create a basic barplot
 
 ```
@@ -52,7 +53,7 @@ p <- ggplot(data=ggdf, aes(x=weight, y=feed)) +
   theme(plot.title = element_text(hjust = 0.5))
 p
 ```
-![Bar-Plot-change-width](ggplot%20images/barplot-change-width.png)
+![Bar-Plot-change-width](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-change-width.png)
 
 * width - changes the width of the bars
   * width value < 1 - means gaps between the bars
