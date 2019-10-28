@@ -1,7 +1,6 @@
-# markdown-example
 ## Explanation using markdown
 
-#### This repository has an explanation of some features of ggplot in a markdown down document.  Also included is an R script which has the ggplot code.
+#### This repository has an explanation of some features of ggplot in a _markdown down_ document.  This document is named **  Also included is an R script which has the ggplot code. This script is called * *.
 
 ## Dependencies
 
