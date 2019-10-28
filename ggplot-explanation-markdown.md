@@ -66,7 +66,7 @@ p + ggtitle(" Chicken Weights by feed types") +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 * color - changes the borders of the bars - change the bar borders to blue 
-* fill - changes the fill-in color of the bars - chnage the bar fill to white
+* fill - changes the fill-in color of the bars - change the bar fill to white
 
 ![Bar-plot-change-colors](https://github.com/EdwardJGillian/markdown-example/blob/master/barplot-white-fill.png)
 
